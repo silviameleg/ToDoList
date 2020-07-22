@@ -41,6 +41,7 @@ function saveList() {
   }
   localStorage.setItem('toDos', JSON.stringify(toDos));
 }
+
 function newToDoItem(itemText, completed) {
   var toDoItem = document.createElement('li');
   var toDoText = document.createTextNode(itemText);
